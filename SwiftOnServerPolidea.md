@@ -1,3 +1,5 @@
+theme: Fira, 1
+
 # [fit] Swift 
 # na 
 # [fit] backendzie
@@ -22,44 +24,80 @@ d) fajnie pasuje do wzorca backend for frontend
 
 ---
 
-# Swift
-
-^ czym się charakteryzuje Swift
-
-^ efektem działań jest zwykła binarka
+# [fit] Swift
 
 ---
 
-# Swift on linux
+# [fit] Value types
+
+struct
+
+---
+
+# [fit] Immutability
+
+---
+
+# [fit] Kompozycja przez 
+# [fit] protokoły
+
+---
+
+# [fit] Funkcje 
+# [fit] wyższego 
+# [fit] rzędu
+
+---
+
+# [fit] Generyczność
+# oraz 
+# [fit] associated types
+
+---
+
+# ARC
+
+---
+
+# [fit] Swift 
+# on 
+# [fit] Linux
 
 ^ nie wszystko jest jeszcze przepisane
+
 ^ trzeba być ostrożnym, bo część zależności może nie działać na linuxie
 
 ---
 
-# Instalacja
+# [fit] Instalacja
 
 ^ jeśli jesteś na macOS, to wystarczy mieć Xcode
+
 ^ na linuxie najwygodniej jest deployować dockerem
+
 ^ jeśli chcesz pisać na linuxie, to warto zainstalować przez swiftenv
 
 ---
 
-# Development
+# [fit] Development
 
 ^ jak w tym pisać
 
 ---
 
-# Biblioteka standardowa
+# [fit] Biblioteka 
+# [fit] standardowa
 
 ---
 
-# Swift Package Manager
+# [fit] Swift 
+# [fit] Package 
+# [fit] Manager
 
 ---
 
-# Katalog zależności
+# [fit] Katalog 
+# [fit] zależności
 
 ---
 
@@ -67,15 +105,18 @@ d) fajnie pasuje do wzorca backend for frontend
 
 ---
 
-# Debugging
+# [fit] Debugging
 
 ---
 
-# Deployment
+# [fit] Deployment
+
+^ efektem działań jest zwykła binarka
 
 ---
 
-# Top frameworki
+# Top 
+# [fit] frameworki
 
 ---
 
@@ -87,9 +128,10 @@ d) fajnie pasuje do wzorca backend for frontend
 
 ---
 
-# Modularyzacja
+# [fit] Modularyzacja
 
 ^ wszystkie framoworki zostały zaprojektowane tak, żeby umożliwić mieszanie zależności
+
 ^ to plus powstawania w momencie, w którym wiadomo już, co innych boli
 
 ---
@@ -98,4 +140,4 @@ d) fajnie pasuje do wzorca backend for frontend
 
 # swift-server-dev mailgroup (https://lists.swift.org/mailman/listinfo/swift-server-dev)
 
-
+^ na pytanie czy można wypada odpowiedzieć można
