@@ -4,8 +4,12 @@ let drop = Droplet()
 
 drop.get { req in
     return try drop.view.make("welcome", [
-    	"message": drop.localization[req.lang, "welcome", "title"]
-    ])
+        "message": drop.localization[req.lang, "welcome", "title"]
+        ])
+}
+
+drop.get("welcome") { request in
+    return "Hello"
 }
 
 drop.resource("posts", PostController())
