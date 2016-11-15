@@ -122,9 +122,31 @@ struct
 
 # Vapor
 
+^ najlepsza dokumentacja
+
+^ najłatwiejszy, żeby zacząć
+
+---
+
 # Kitura
 
+^ wsparcie IBM
+
+^ cloud foundry na bluemix
+
+^ wsparcie enterprise
+
+---
+
 # Zewo
+
+^ największy projekt
+
+^ bardzo dużo modułów
+
+^ najbardziej "hackerski", z implementowaniem własnych elementów języka włącznie
+
+^ najsłabsza dokumentacja
 
 ---
 
